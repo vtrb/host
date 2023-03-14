@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <title>KyraHost - Hospedagem de Sites, Revenda de Hospedagem, Servidores VPS SSD, Revenda de TeamSpeak 3 e TeamSpeak 3</title>
+
+    <!--Favicons-->    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap-theme.min.css">
+
+    <!--Loader-->
+    <link rel="stylesheet" href="css/spinners.css">
+
+    <!-- Vendors -->
+    <link rel="stylesheet" href="vendors/owl.carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendors/fontawesome/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/et-line-icons/et-line-icons.css">
+    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="vendors/lineariconsFree/style.css">
+    <link rel="stylesheet" href="vendors/magnificpopup/magnific-popup.css">
+    <link rel="stylesheet" href="vendors/slick/css/slick.css">
+    <link rel="stylesheet" href="vendors/slick/css/slick-theme.css">
+    <link rel="stylesheet" href="vendors/video-popup/video-popup.css"/>
+
+    <!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Nunito:600,700,800|Montserrat:500,600,700|Open+Sans:300,500,600' rel='stylesheet' type='text/css'>
+    <!--Theme Styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<!--Loader-->
+		<div class="preloader">
+			<div class="showbox">
+			  <div class="cercle-loader">
+				<svg class="circular" viewBox="25 25 50 50">
+				  <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+				</svg>
+			  </div>
+			</div>
+		</div>
+    <!--Loader End-->
+
+	<!--Top Header-->
+    <section class="row top_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="nav nav-pills pull-left">
+                        <li><a href="#"target="_blank>"><i class="fa fa-whatsapp"></i>+55 (74) 99801-2707</a></li>
+                        <li><a href="mailto:contato@kyrahost.com.br"><i class="icon-envelope"></i>contato@kyrahost.com.br</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6">
+                    <ul class="nav nav-pills pull-right">
+                    	<li>
+                            <div class="btn-group country_select">
+                                <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            </div>
+                        </li>
+                        <li><i class="fa fa-life-bouy"></i><a href="https://cliente.kyrahost.com.br/submitticket.php">Enviar Ticket</a></li>
+                        <li class="header-link"><a href="https://cliente.kyrahost.com.br/clientarea.php" class="btn-xlg"><i class="fa fa-user"></i> Área do Cliente</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MENU-->
+    <nav class="navbar navbar-default navbar-static-top fluid_header centered">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                  <a class="navbar-brand" href="index">
+                	<img src="images/logo.png">
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main_navigation">
+                <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="index"><i class="fa fa-home"></i> Inicio</a></li>
+
+                     <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><i class="fa fa-server"></i> Serviços</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="hospedagem-de-sites">Hospedadem de Sites</a></li>
+                              <li><a href="vps-ssd">Servidores VPS</a></li>
+                              <li><a href="streaming">Streaming de audio AAC+</a></li>
+            </ul>
+                        </li>
+
+                        <li><a href="ts3bot"><i class="fa fa-cogs"></i> Ts3Bot</a></li>
+
+                     <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><i class="fa fa-headphones"></i> TeamSpeak 3</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="teamspeak">Planos TeamSpeak 3</a></li>
+                              <li><a href="#">Revenda de TeamSpeak 3 </a></li>
+                                  </ul>
+                                 </li>
+                                  <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><i class="fa fa-building"></i> Empresa</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="sobre">Sobre Nós</a></li>
+                              <li><a href="termos-de-uso">Termos de serviço</a></li>
+                             </ul>
+                        </li>
+
+                        <li><a href="#"><i class="fa fa-phone"></i> Contato</a></li>
+            </div>
+        </div>
+    </nav>
+    <!--MENU End-->
+
+
+    <!--Breadcrumb-->
+    <section class="row page_header section-spacing">
+        <div class="container">
+            <h3>Servidores VPS</h3>
+            <ol class="breadcrumb">
+                <li><a href="index">Inicio</a></li>
+                <li class="active">VPS SSD</li>
+            </ol>
+        </div>
+    </section>
+
+    <!--Tabs-->
+    <section class="row featureTab p-top80 bg_white">
+        <section class="row pricing pricing2 p-bottom1fa fa-hdd-o0">
+            <div class="container">
+                <div class="sectionTitle">
+                </div>
+            </div>
+        </section>
+
+        <div class="row feature_tab_menu m0">
+            <div class="container">
+                <div class="col-lg-6 center-block">
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li role="presentation" class="active">
+                        	<a href="#linux" aria-controls="linux" role="tab" data-toggle="tab">
+                           	 	<i aria-hidden="true" class="fa fa-linux fa-2x"></i> VPS Linux
+                            </a>
+                        </li>
+                        <li role="presentation">
+                        	<a href="#windows" aria-controls="windows" role="tab" data-toggle="tab">
+                            	<i aria-hidden="true" class="fa fa-windows fa-2x"></i>VPS Windows
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 featureTab_contents">
+            <div class="tab-content">
+                <!--Tab 1-->
+                <div class="tab-pane active" role="tabpanel" id="linux">
+                    <div class="content_row row m0 section-spacing">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="sectionTitle text-center m-bottom80">
+                                        <h2><i aria-hidden="true" class=""></i> VPS Linux com discos SSD de alto desempenho</h2>
+                                    </div>
+                                    <div class="table-style table-responsive table-center">
+                                        <table class="table-list">
+                                            <tbody>
+                                                <tr>
+                                                    <th>PLANO</th>
+                                                    <th>CPU</th>
+                                                    <th>RAM</th>
+                                                    <th>HDD</th>
+                                                    <th>LINK</th>
+                                                    <th>PREÇO</th>
+                                                    <th>PEDIDO</th>
+                                                </tr>
+                                                <tr>
+                                                    <td> VPS 1</td>
+                                                    <td> 1vCore</td>
+                                                    <td> 512MB</td>
+                                                    <td> 10GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$14,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=52" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 2</td>
+                                                    <td> 1vCore</td>
+                                                    <td> 1GB</td>
+                                                    <td> 20GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$19,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=6" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 3</td>
+                                                    <td> 1vCore</td>
+                                                    <td> 2GB</td>
+                                                    <td> 30GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$24,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=33" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 4</td>
+                                                    <td> 2vCore</td>
+                                                    <td> 3GB</td>
+                                                    <td> 40GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$34,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=34" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 5</td>
+                                                    <td> 4vCore</td>
+                                                    <td> 4GB</td>
+                                                    <td> 60GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$49,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=35" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 7</td>
+                                                    <td> 8vCore</td>
+                                                    <td> 8GB</td>
+                                                    <td> 100GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$79,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=36" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content_row content_row2 whats_under_tabs row m0  section-spacing bg-gray">
+                        <div class="container">
+                            <div class="sectionTitle p-bottom80">
+                <h2>Porque escolher a KyraHost ?</h2><br />
+                <h4>Se está procurando uma empresa de qualidade, você está no lugar certo!<br />
+Nós oferecemos serviços impecáveis em infraestrutura sólidas.</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                    	<div class="row icon m0"><i aria-hidden="true" class="fa fa-cogs fa-3x text-gredient1 text-shadow"></i> </div>
+                                        <h4>Sistema Automatizado</h4>
+                                    	<p>Após sua compra o serviço é liberado em segundos, tudo de forma automática sem você se preocupar com nada.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="fa fa-microchip fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Processadores Intel</h4>
+                                        <p>Processadores de ultima geração que garantem a maior performance e disponibilidade. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="icon-tools-2 fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Suporte Técnico</h4>
+                                        <p>Temos uma equipe técnica disponível para resolver todos os problemas que possam ocorrer em seu serviço. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="fa fa-sitemap fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Alta Performance</h4>
+                                        <p>Tecnologia de ponta em hardware e software, fornecendo a você o maximo de velocidade e desempenho. </p>
+                                     </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="fa fa-sliders fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Segurança Avançada</h4>
+                                        <p>Nosso sistema de segurança e muito rígido, todos os servidores são monitorados 24h por dia. </p>
+                                     </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class=" fa fa-hdd-o fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Discos 100% SSD</h4>
+                                        <p>Servidores de última geração com discos 100% SSD, deixando seu servidor com o maximo desempenho do mercado. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+</div>
+
+                <!--Tab 2-->
+                <div class="tab-pane" role="tabpanel" id="windows">
+                    <div class="content_row row m0 section-spacing">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="sectionTitle text-center m-bottom80">
+                                        <h2><i aria-hidden="true" class=""></i> VPS Windows com discos SSD de alto desempenho</h2>
+                                    </div>
+                                    <div class="table-style table-responsive table-center">
+                                        <table class="table-list">
+                                            <tbody>
+                                                <tr>
+                                                    <th>PLANO</th>
+                                                    <th>CPU</th>
+                                                    <th>RAM</th>
+                                                    <th>HDD</th>
+                                                    <th>LINK</th>
+                                                    <th>PREÇO</th>
+                                                    <th>PEDIDO</th>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td> VPS 1</td>
+                                                    <td> 1vCore</td>
+                                                    <td> 1GB</td>
+                                                    <td> 20GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$24,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=53" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 2</td>
+                                                    <td> 1vCore</td>
+                                                    <td> 2GB</td>
+                                                    <td> 30GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$49,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=54" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 3</td>
+                                                    <td> 2vCore</td>
+                                                    <td> 3GB</td>
+                                                    <td> 40GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$69,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=55" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 4</td>
+                                                    <td> 4vCore</td>
+                                                    <td> 4GB</td>
+                                                    <td> 60GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$89,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=56" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> VPS 5</td>
+                                                    <td> 8vCore</td>
+                                                    <td> 8GB</td>
+                                                    <td> 100GB SSD</td>
+                                                    <td> 1Gbps</td>
+                                                    <td> R$159,90</td>
+                                                    <td><a href="https://cliente.KyraHost.com.br/cart.php?a=add&pid=57" class="btn btn-xlg btn-primary"><i class="icon-basket"></i> Comprar</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <!--Features-->
+                        <div class="container">
+                            <div class="sectionTitle p-bottom80">
+                <h2>Porque escolher a KyraHost ?</h2><br />
+                <h4>Se está procurando uma empresa de qualidade, você está no lugar certo!<br />
+Nós oferecemos serviços impecáveis em infraestrutura sólidas.</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                    	<div class="row icon m0"><i aria-hidden="true" class="fa fa-cogs fa-3x text-gredient1 text-shadow"></i> </div>
+                                        <h4>Sistema Automatizado</h4>
+                                    	<p>Após sua compra o serviço é liberado em segundos, tudo de forma automática sem você se preocupar com nada.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="fa fa-microchip fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Processadores Intel</h4>
+                                        <p>Processadores de ultima geração que garantem a maior performance e disponibilidade. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="icon-tools-2 fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Suporte Técnico</h4>
+                                        <p>Temos uma equipe técnica disponível para resolver todos os problemas que possam ocorrer em seu serviço. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="fa fa-sitemap fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Alta Performance</h4>
+                                        <p>Tecnologia de ponta em hardware e software, fornecendo a você o maximo de velocidade e desempenho. </p>
+                                     </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class="fa fa-sliders fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Segurança Avançada</h4>
+                                        <p>Nosso sistema de segurança e muito rígido, todos os servidores são monitorados 24h por dia. </p>
+                                     </div>
+                                </div>
+                                <div class="col-sm-4 under_tabs">
+                                	<div class="features_box bg-pattern border shadow">
+                                        <div class="row icon m0"><i aria-hidden="true" class=" fa fa-hdd-o fa-3x text-gredient1 text-shadow"></i></div>
+                                        <h4>Discos 100% SSD</h4>
+                                        <p>Servidores de última geração com discos 100% SSD, deixando seu servidor com o maximo desempenho do mercado. </p>
+                                    </div><br />
+                                </div><br />
+                            </div><br />
+                        </div>
+                    </div>
+                    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="row">
+        <div class="subscriber">
+            <div class="container">
+                <div class="row beInContact m0">
+                    <div class="col-sm-6">
+                        <div class="social_icos">
+                            <ul class="nav">
+                                <li><a href="https://facebook.com/"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://facebook.com/"><i class="fa fa-google"></i></a></li>
+                                <li><a href="https://facebook.com/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="subscribe_form clearfix">
+                            <form action="#" class="form-inline">
+                                <div class="form-group">
+                    <ul class="list-inline payment-icons">
+                        <li><i class="fa fa-cc-visa fa-3x"></i></li>
+                        <li><i class="fa fa-cc-mastercard fa-3x"></i></li>
+                        <li><i class="fa fa-cc-amex fa-3x"></i></li>
+                        <li><i class="fa fa-cc-discover fa-3x"></i></li>
+                        <li><i class="fa fa-cc-diners-club fa-3x"></i></li>
+                        <li><i class="fa fa-cc-paypal fa-3x"></i></li>
+             		</ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="footer-main">
+            <div class="container">
+                <div class="col-sm-3 col-xs-12">
+                	<h4>Serviços</h4>
+                    <ul>
+                        <li><a href="hospedagem-de-sites">Hospedagem de sites</a></li>
+                        <li><a href="vps-ssd">Servidores VPS</a></li>
+                        <li><a href="teamspeak">TeamSpeak 3 - Brasil</a></li>
+                        <li><a href="teamspeak">TeamSpeak 3 - Canadá</a></li>
+                        <li><a href="#">Revenda TeamSpeak - Canadá</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-12">
+                	<h4>Clientes</h4>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Abrir Ticket</a></li>
+                        <li><a href="#">Meus Serviços</a></li>
+                        <li><a href="#">Minhas Faturas</a></li>
+                        <li><a href="#">Base de conhecimentos</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-12">
+                	<h4>A Empresa</h4>
+                    <ul>
+                        <li><a href="sobre">Sobre nós </a></li>
+                        <li><a href="termos-de-uso">Termos de Uso</a></li>
+                        <li><a href="#">Infraestrutura</a></li>
+                        <li><a href="#">Uptime KyraHost</a></li>
+                        <li><a href="#">Noticias KyraHost</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-12">
+                	<h4>Página no Facebook</h4><a 
+        <ul class="nav">
+
+        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_line">
+        	<div class="container">
+            	<div class="col-sm-12"> 
+<center><strong><span class="amount text-gredient1">WhatsApp: (74) 99801-2707    |    Email: contato@kyrahost.com.br</center>
+<center><span class="amount text-gredient1">Copyright © 2018 - KyraHost - Servidores de Qualidade.</spam></center>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Back to Top-->
+
+    <!--jQuery-->
+    <script src="js/jquery-2.2.4.min.js"></script>
+
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Magnific Popup-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!--Owl Carousel-->
+    <script src="vendors/owl.carousel/owl.carousel.min.js"></script>
+
+    <!--Waypoints-->
+    <script src="vendors/waypoints/waypoints.min.js"></script>
+
+    <!--Counter Up-->
+    <script src="vendors/counterup/jquery.counterup.min.js"></script>
+
+    <!--Isotope-->
+    <script src="vendors/isotope/isotope.min.js"></script>
+
+    <!--Infinite Scroll-->
+    <script src="vendors/infinitescrol/jquery.infinitescroll.min.js"></script>
+
+	<!--Video-popup-->
+	<script src="vendors/video-popup/video-popup.js"></script>
+    
+    <!--Contact Form-->
+    <script src="form/js/contact-form.js"></script>
+
+    <!--Parallax-->
+    <script src="vendors/parallax/jquery.parallax-1.1.3.js"></script>
+
+    <!--Circliful-->
+    <script src="vendors/circliful/jquery.circliful.min.js"></script>
+
+    <!-- Slick Slider -->
+    <script src="vendors/slick/js/slick.min.js"></script>
+
+    <!-- equalize -->
+    <script type="text/javascript" src="js/equalize.min.js"></script>
+
+    <!--Theme JS-->
+    <script src="js/theme.js"></script>
+	<script>
+	jQuery(document).ready(function() {
+		// ______________ VIDEOPOPUP
+		$("a.autoplay").VideoPopUp();
+		$("a.noautoplay").VideoPopUp({
+			autoplay: 0
+		}); // Disable autoplay
+		// ______________ PARALLAX
+		$('.section-parallax').parallax("50%", 0.4);
+		// ______________ STATS
+		$('.statistics').waypoint(function() {
+		 $('#myStat1').circliful();
+		 $('#myStat2').circliful();
+		 $('#myStat3').circliful();
+		 $('#myStat4').circliful();
+		}, { offset: 800, triggerOnce: true });
+	});
+    </script>
+<!--Start of Tawk.to Script-->
+
+<!--End of Tawk.to Script-->
+</body>
+</html>
